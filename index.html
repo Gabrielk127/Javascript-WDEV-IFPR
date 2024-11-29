@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercícios JavaScript</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Exercícios JavaScript - Gabriel Fernandes 4 Período</h1>
+      <div class="exercise">
+        <h2>1 - Soma dos divisores</h2>
+        <input type="number" id="numDivisores" placeholder="Digite um número" />
+        <button onclick="mostrarSomaDivisores()">Calcular</button>
+        <p id="resultadoDivisores"></p>
+      </div>
+
+      <div class="exercise">
+        <h2>2 - Distância Euclidiana</h2>
+        <input type="number" id="x1" placeholder="x1" />
+        <input type="number" id="y1" placeholder="y1" />
+        <input type="number" id="x2" placeholder="x2" />
+        <input type="number" id="y2" placeholder="y2" />
+        <button onclick="mostrarDistancia()">Calcular</button>
+        <p id="resultadoDistancia"></p>
+      </div>
+
+      <div class="exercise">
+        <h2>3 - Contar palavras</h2>
+        <textarea id="frase" placeholder="Digite uma frase"></textarea>
+        <button onclick="mostrarContagem()">Contar</button>
+        <p id="resultadoContagem"></p>
+      </div>
+
+      <div class="exercise">
+        <h2>4 - Dimensão da Matriz</h2>
+        <textarea id="matriz" placeholder="Digite a matriz"></textarea>
+        <button onclick="mostrarDimensao()">Calcular</button>
+        <p id="resultadoDimensao"></p>
+      </div>
+
+      <div class="exercise">
+        <h2>5 - Sequência de Fibonacci</h2>
+        <input type="number" id="numFibonacci" placeholder="Digite N" />
+        <button onclick="mostrarFibonacci()">Gerar</button>
+        <p id="resultadoFibonacci"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
